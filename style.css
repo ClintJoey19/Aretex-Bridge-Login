@@ -12,12 +12,3 @@ html {
 a {
   text-decoration: none;
 }
-
-.bg-blue-gradient {
-  background: rgb(50, 68, 156);
-  background: radial-gradient(
-    circle,
-    rgba(50, 68, 156, 1) 40%,
-    rgba(242, 143, 51, 1) 100%
-  );
-}

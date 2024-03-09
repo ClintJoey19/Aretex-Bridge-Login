@@ -3,8 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://firebasestorage.googleapis.com/v0/b/aretex-47c6e.appspot.com/o/success.svg?alt=media&token=a3c2666d-3a24-4a96-950b-c72f510d6e88"
+    />
     <title>Aretex Bridge | Login</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -66,7 +85,7 @@
             <button
               type="submit"
               id="btn"
-              class="bg-secondary hover:bg-primary w-full text-center py-2 text-white rounded font-bold text-lg mt-4"
+              class="bg-secondary hover:opacity-80 transition-opacity w-full text-center py-2 text-white rounded-sm font-bold text-lg mt-4"
             >
               Sign Up
             </button>
@@ -74,18 +93,12 @@
         </main>
       </div>
       <div class="w-full h-full max-md:hidden p-5 grid items-center">
-        <img src="image.svg" alt="image" />
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/aretex-47c6e.appspot.com/o/image.svg?alt=media&token=5880f981-a580-42e7-960c-d65430547d86"
+          alt="image"
+        />
       </div>
     </section>
-    <script>
-      const form = document.getElementById("form");
-
-      btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        setTimeout(() => {
-          console.log("Sign Up Successful");
-        }, 5000);
-      });
-    </script>
+    <script></script>
   </body>
 </html>

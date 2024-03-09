@@ -3,8 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://firebasestorage.googleapis.com/v0/b/aretex-47c6e.appspot.com/o/success.svg?alt=media&token=a3c2666d-3a24-4a96-950b-c72f510d6e88"
+    />
     <title>Sign Up Successful</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -20,9 +39,21 @@
     </script>
   </head>
   <body>
-    <section class="">
-      <div class=""></div>
-      <div class=""></div>
+    <section class="w-full h-screen flex justify-center items-center">
+      <div class="max-w-[500px] flex flex-col items-center gap-5">
+        <h1 class="text-5xl text-primary font-extrabold">Success</h1>
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/aretex-47c6e.appspot.com/o/success.svg?alt=media&token=a3c2666d-3a24-4a96-950b-c72f510d6e88"
+          alt="success-img"
+          class="w-full"
+        />
+        <div class="p-4">
+          <p class="text-center text-xl">
+            Stay tuned for Aretex's anniversary as we reveal the lucky winners!
+          </p>
+        </div>
+        <span class="text-secondary font-bold">THANK YOU!!!</span>
+      </div>
     </section>
   </body>
 </html>
